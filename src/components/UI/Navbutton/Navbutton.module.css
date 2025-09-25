@@ -1,0 +1,17 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 1em;
+    cursor: pointer;
+    transition: 250ms;
+    width: fit-content;
+}
+.Ref {
+    color: var(--secondary_color_3);
+    text-decoration: none;
+}
+.Wrapper:hover > .Ref {
+    color: var(--secondary_color_1);
+}

@@ -1,4 +1,5 @@
 .Wrapper {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
@@ -7,6 +8,7 @@
     box-shadow: 0 0 0.5dvw var(--primary_color);    
     position: fixed;
     width: 100%;
+    padding: 0 2dvh;
 }
 .Logo {
     height: 80%;

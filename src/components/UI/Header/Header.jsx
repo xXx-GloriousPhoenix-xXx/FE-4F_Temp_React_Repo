@@ -1,8 +1,9 @@
 import cl from "./Header.module.css";
 
 import ImageContainer from '../Image/ImageContainer/ImageContainer';
+import Navbar from "../Navbar/Navbar";
 
-const Header = () => {
+const Header = ({navbarProps}) => {
     return ( 
         <header className={cl.Wrapper}>
             <ImageContainer>
@@ -25,7 +26,7 @@ const Header = () => {
                 </g>
             </svg>
             </ImageContainer>
-            {/* <Navbar/> */}
+            <Navbar navbarButtonPropList={navbarProps}/>
         </header>
     );
 }

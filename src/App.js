@@ -3,14 +3,21 @@ import './App.css';
 import Header from "./components/UI/Header/Header";
 import Main from "./components/UI/Main/Main";
 import Footer from "./components/UI/Footer/Footer";
-import Logo from "./img/logo.svg";
 
 function App() {
+    const navbarProps = [
+        { text: 'Campsites', ref: '' },
+        { text: 'Shop', ref: '' },
+        { text: 'Blog', ref: '' },
+        { text: 'About Us', ref: '' },
+        { text: 'Contact', ref: '' }
+    ];
+    const footerText = "Copyright © 2025 CampOut.com";
     return (
         <div className="App">
-            <Header logoSrc={Logo}/>
+            <Header navbarProps={navbarProps}/>
             <Main/>
-            <Footer/>
+            <Footer text={footerText}/>
         </div>
     );
 }

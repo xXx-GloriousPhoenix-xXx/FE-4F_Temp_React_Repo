@@ -4,13 +4,13 @@ const ImageReference = ({imgSrc, imgWidth, imgHeight}) => {
     return ( 
         <div
             className={cl.Wrapper}
-            style={{width: imgWidth, height: imgHeight}}
+            style={{backgroundImage: `url(${imgSrc})`}}
         >
-            <img 
-                className={cl.ImageReference}
-                src={`%public%/img/${imgSrc}`}
+            {/* <img 
+                className={cl.Image}
+                src={imgSrc}
                 alt="img"
-            />
+            /> */}
         </div>
     );
 }
