@@ -4,17 +4,3 @@
     height: 100%;
     flex-flow: column nowrap;
 }
-:root {
-    --primary_color: rgb(43, 28, 57);
-    --secondary_color_1: rgb(132, 175, 179);
-    --secondary_color_2: rgb(2, 44, 58);
-    --secondary_color_3: rgb(237, 230, 214);
-    --secondary_color_3_transparent: rgba(237, 230, 214, 0.5);
-}
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}

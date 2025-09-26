@@ -1,0 +1,40 @@
+.Wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 87.5dvh;
+    background-color: green;
+    /* padding-top: 12.5dvh; */
+}
+.GearList {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 2em 2em;
+    padding: 0 4em;
+}
+.GearItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: var(--secondary_color_3);
+    width: 17.5dvw;
+    padding: 1em;
+    border-radius: 1em;
+}
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    aspect-ratio: 2/1;
+}

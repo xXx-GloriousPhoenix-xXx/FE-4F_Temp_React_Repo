@@ -1,8 +1,8 @@
 import './App.css';
 
-import Header from "./components/UI/Header/Header";
-import Main from "./components/UI/Main/Main";
-import Footer from "./components/UI/Footer/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     const navbarProps = [
