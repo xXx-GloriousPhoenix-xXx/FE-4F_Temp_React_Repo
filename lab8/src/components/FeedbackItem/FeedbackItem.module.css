@@ -1,0 +1,23 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+.Text {
+    text-indent: 2em;
+    text-align: justify;
+    background-color: var(--secondary_color_3);
+    padding: 1em;
+    border-radius: 1em;
+}
+.Detail {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column nowrap;
+    background-color: var(--secondary_color_3);
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}

@@ -4,6 +4,7 @@ import Hero from "../Hero/Hero";
 import AboutUs from "../AboutUs/AboutUs";
 import GearShop from "../GearShop/GearShop";
 import Gallery from "../Gallery/Gallery";
+import Review from "../Review/Review";
 
 const Main = () => {
     const gearProps = [
@@ -16,13 +17,27 @@ const Main = () => {
         { src: "img/shop-items/water-bottle.webp", alt: "Water Bottle", description: "Insulated and reusable, keeps drinks hot or cold.", price: "$20" },
         { src: "img/shop-items/multitool-kit.webp", alt: "Multitool Kit", description: "Versatile toolset for various outdoor tasks.", price: "$40" }
     ];
+    const reviewProps = [
+        { text: "CampOut made planning my trip so easy! The campsite options were fantastic, and the gear shop had everything I needed. Highly recommend!", rating: 4, author: "Alex P."},
+        { text: "I had an amazing experience with CampOut. The website is user-friendly, and the customer service was top-notch. My family and I had a blast!", rating: 5, author: "Jamie L."},
+        { text: "The gear I purchased from CampOut was of great quality and perfect for my camping trip. The recommendations were spot on!", rating: 5, author: "Taylor R."}
+    ];
+    const statisticProps = [
+        { number: "500+", parameter: "Campsites available" },
+        { number: "10K+", parameter: "Happy campers" },
+        { number: "1K+", parameter: "5-Star Reviews" },
+        { number: "200", parameter: "Gear Products" }
+    ];
     return (
         <main className={cl.Wrapper}>
             <Hero/>
             <AboutUs/>
             <GearShop gearProps={gearProps}/>
             <Gallery />
-            <Review />
+            <Review
+                feedbackProps={reviewProps}
+                statisticProps={statisticProps}
+            />
             {/* <Blog /> */}
         </main>
     );

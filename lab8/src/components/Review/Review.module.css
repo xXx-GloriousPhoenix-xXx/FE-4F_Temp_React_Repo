@@ -1,0 +1,10 @@
+.Wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 87.5dvh;
+    background-color: var(--primary_color);
+    width: 100%;
+    flex-flow: column nowrap;
+    gap: 1em;
+}

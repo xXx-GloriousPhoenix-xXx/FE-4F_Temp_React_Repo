@@ -1,6 +1,6 @@
-.bright-text {
+.Bright {
     color: var(--secondary_color_3);
 }
-.dark-text {
+.Dark {
     color: var(--primary_color);
 }

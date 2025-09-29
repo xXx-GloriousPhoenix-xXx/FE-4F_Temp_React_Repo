@@ -1,14 +1,16 @@
 import cl from "./Gallery.module.css";
 
+import SectionHeader from "../SectionHeader/SectionHeader";
 import ImageReference from "../UI/Image/ImageReference/ImageReference";
 
 const Gallery = () => {
     return (
         <section className={cl.Wrapper}>
-            <div className={cl.TextWrapper}>
-                <h1>Our Camping Adventures</h1>
-                <p>who are in extreme love with nature and outdoor activities</p>
-            </div>
+            <SectionHeader
+                headerText="Our Camping Adventures"
+                paragraphText="who are in extreme love with nature and outdoor activities"
+                textHueClass="Dark"
+            />
             <div className={cl.Grid}>
                 <div className={cl.TopLeft}>
                     <ImageReference imgSrc="img/gallery/choosing-place.webp"/>
