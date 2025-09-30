@@ -3,7 +3,7 @@
     text-decoration: none;
     border: 0.2dvw solid var(--primary_color);
     border-radius: 1.5dvw;
-    padding: 0.5dvw;
+    padding: 0.1em 0.25em;
 }
 .Wrapper:hover, .Tag:hover {
     color: var(--secondary_color_1);

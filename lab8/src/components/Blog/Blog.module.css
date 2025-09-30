@@ -5,4 +5,5 @@
     flex-flow: column nowrap;
     gap: 2dvw;
     height: 87.5dvh;
+    padding: 0.5em 0;
 }   

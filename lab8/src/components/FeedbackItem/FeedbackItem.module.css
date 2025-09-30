@@ -10,6 +10,7 @@
     background-color: var(--secondary_color_3);
     padding: 1em;
     border-radius: 1em;
+    height: 20dvh;
 }
 .Detail {
     display: flex;

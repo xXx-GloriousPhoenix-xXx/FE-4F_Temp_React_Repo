@@ -4,8 +4,6 @@
     align-items: center;
 
     height: 87.5dvh;
-    /* padding-top: 12.5dvh; */
-    box-sizing: border-box;
 }
 .ContentWrapper {
     display: flex;
@@ -34,4 +32,8 @@
     background-color: var(--secondary_color_3);
     padding: 2dvw;
     border-radius: 1em;
+    gap: 1em;
+}
+.Header {
+    text-align: center;
 }
