@@ -5,6 +5,7 @@ import AboutUs from "../AboutUs/AboutUs";
 import GearShop from "../GearShop/GearShop";
 import Gallery from "../Gallery/Gallery";
 import Review from "../Review/Review";
+import Blog from "../Blog/Blog";
 
 const Main = () => {
     const gearProps = [
@@ -38,7 +39,7 @@ const Main = () => {
                 feedbackProps={reviewProps}
                 statisticProps={statisticProps}
             />
-            {/* <Blog /> */}
+            <Blog />
         </main>
     );
 }
