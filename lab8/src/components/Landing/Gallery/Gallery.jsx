@@ -1,7 +1,7 @@
 import cl from "./Gallery.module.css";
 
 import SectionHeader from "../SectionHeader/SectionHeader";
-import ImageReference from "../UI/Image/ImageReference/ImageReference";
+import ImageReference from "../../UI/Image/ImageReference/ImageReference";
 
 const Gallery = () => {
     return (

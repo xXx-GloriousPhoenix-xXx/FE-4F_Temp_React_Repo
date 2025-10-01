@@ -1,5 +1,5 @@
 import cl from './SectionHeader.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
 const SectionHeader = ({ headerText, paragraphText, textHueClass }) => {
     const classCollector = [cl.Wrapper, textHueClass ? textcl[textHueClass] : ''].join(' ');

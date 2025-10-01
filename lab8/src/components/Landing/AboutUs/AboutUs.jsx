@@ -1,5 +1,5 @@
 import cl from './AboutUs.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
 const AboutUs = () => {
     return (

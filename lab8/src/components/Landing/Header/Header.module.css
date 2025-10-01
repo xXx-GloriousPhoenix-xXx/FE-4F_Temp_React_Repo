@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     padding: 0 2dvw 0 2dvh;
+    z-index: 1;
 }
 .Logo {
     height: 80%;

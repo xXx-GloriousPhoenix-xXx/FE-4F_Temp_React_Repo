@@ -1,5 +1,5 @@
 import cl from './FeedbackList.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
 import FeedbackItem from '../FeedbackItem/FeedbackItem';
 

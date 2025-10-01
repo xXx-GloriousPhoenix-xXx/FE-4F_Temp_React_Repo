@@ -1,7 +1,7 @@
 import cl from './FeedbackItem.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
-import ratingToStar from "../../utils/ratingToStars";
+import ratingToStar from "../../../utils/ratingToStars";
 
 const FeedbackItem = ({ props }) => {
     return (

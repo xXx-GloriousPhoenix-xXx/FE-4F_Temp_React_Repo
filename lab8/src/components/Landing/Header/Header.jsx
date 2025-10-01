@@ -1,7 +1,7 @@
 import cl from "./Header.module.css";
 
-import ImageContainer from '../UI/Image/ImageContainer/ImageContainer';
-import Navbar from "../UI/Navbar/Navbar";
+import ImageContainer from '../../UI/Image/ImageContainer/ImageContainer';
+import Navbar from "../../UI/Navbar/Navbar";
 
 const Header = ({navbarProps}) => {
     return ( 

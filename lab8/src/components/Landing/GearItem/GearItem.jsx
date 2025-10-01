@@ -1,6 +1,6 @@
 import cl from "./GearItem.module.css";
 
-import ImageContainer from "../UI/Image/ImageContainer/ImageContainer";
+import ImageContainer from "../../UI/Image/ImageContainer/ImageContainer";
 
 const GearItem = ({ props }) => {
     return (

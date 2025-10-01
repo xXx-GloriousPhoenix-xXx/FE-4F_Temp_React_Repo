@@ -1,0 +1,8 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding-top: 20dvh;
+    height: 100dvh;
+}

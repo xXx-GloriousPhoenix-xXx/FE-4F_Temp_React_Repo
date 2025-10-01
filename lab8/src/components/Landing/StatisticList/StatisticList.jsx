@@ -1,5 +1,5 @@
 import cl from './StatisticList.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
 import Statistic from '../Statistic/Statistic';
 

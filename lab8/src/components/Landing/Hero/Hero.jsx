@@ -1,8 +1,8 @@
 import cl from './Hero.module.css';
-import textcl from '../../styles/text-hue.module.css';
+import textcl from '../../../styles/text-hue.module.css';
 
-import Button from '../UI/Button/Button';
-import ImageReference from '../UI/Image/ImageReference/ImageReference';
+import Button from '../../UI/Button/Button';
+import ImageReference from '../../UI/Image/ImageReference/ImageReference';
 
 const Hero = () => {
     const classCollector = [cl.Wrapper, textcl["Bright"]].join(" ");
