@@ -1,16 +1,13 @@
-import cl from './Report.module.css'
-
 import Header from '../../components/Report/Header/Header'
 import Main from '../../components/Report/Main/Main'
+import Footer from '../../components/Report/Footer/Footer'
 
 const Report = () => {
     return (
-        <div className={cl.Wrapper}>
+        <div>
             <Header/>
             <Main/>
-            <footer>
-
-            </footer>
+            <Footer/>
         </div>
     );
 }

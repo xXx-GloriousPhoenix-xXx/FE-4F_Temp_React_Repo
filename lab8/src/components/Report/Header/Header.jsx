@@ -7,7 +7,7 @@ const Header = () => {
         <header className={cl.Wrapper}>
             <div className={cl.Intro}>
                 <div>
-                    <h2>Звіти з лабораторних робіт</h2>
+                    <h2>Звіти з практичних робіт</h2>
                     <h2>З дисципліни «WEB-орієнтовані технології. Frontend розробки»</h2>
                 </div>
                 <div>

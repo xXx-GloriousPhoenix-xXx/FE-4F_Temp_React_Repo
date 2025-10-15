@@ -2,6 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column nowrap;
-    height: 100dvh;
+    background-color: var(--primary_color);
+    min-height: 10dvh;
 }

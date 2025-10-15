@@ -1,9 +1,9 @@
 const fetchContent = async (labNumber) => {
-    return fetch(`/data/lab/${labNumber}/content.json`)
-    .then(res => {
-        if (!res.ok) {
-            throw new Error(`Ошибка загрузки: ${res.status}`);
-        }
-        return res.json();
-    });
+    const res = await fetch(`/data/lab/sections.json`);
+    if (!res.ok) {
+        throw new Error(`Помилка завантаження: ${res.status}`);
+    }
+    const data = await res.json();
+    return data[labNumber - 1];
 }
+export default fetchContent;

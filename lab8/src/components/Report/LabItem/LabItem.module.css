@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%;
-    aspect-ratio: 3;
+    height: 100%;
+    width: 100%;
     background-color: transparent;
     border: 0.15em solid var(--primary_color);
     color: var(--primary_color);
